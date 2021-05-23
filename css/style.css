@@ -70,7 +70,7 @@ main {
 #navbarScrollingDropdown-1 {
     position: relative;
     top: 15px;
-    color: #A8A5A3;
+    color: #A8A5A3 !important;
     font-size: 12px;
     text-decoration: none;
     -webkit-appearance: none;
@@ -91,7 +91,7 @@ main {
     position: relative;
     top: 5px;
     display: flex;
-    color: #000;
+    color: #A8A5A3;
     font-size: 14px;
     text-decoration: none;
     -webkit-appearance: none;
@@ -1057,7 +1057,7 @@ h3 {
 }
 
 #vivinodetails {
-    padding-left: 70px;
+    padding-left: 7g0px;
     margin-bottom: 24px;
 }
 
