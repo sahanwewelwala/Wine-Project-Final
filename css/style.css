@@ -1,0 +1,1132 @@
+:root {
+    --primary-color: #fafafa;
+}
+
+main {
+    margin-top: 2px;
+    background: var(--primary-color);
+    padding-bottom: 300px;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#logo {
+    width: 160px;
+
+}
+
+
+
+
+#header {
+    overflow: hidden;
+    color: black;
+    background-color: #FFFFFF;
+    min-height: 128px;
+    max-height: 128px;
+    margin: 0 auto;
+    z-index: 100;
+    box-shadow: 0 1px 4px #a8a5a3 !important;
+
+}
+
+
+
+
+
+.nav-1 {
+    min-width: 1216px;
+    max-width: 1216px;
+}
+
+#nav-2 {
+    max-width: 1216px;
+    min-width: 1216px;
+    max-height: 64px;
+    min-height: 64px;
+    padding-left: 25px;
+}
+
+.navbar {
+    max-width: 1216px;
+    min-width: 1216px;
+    max-height: 64px;
+    min-height: 64px;
+
+
+}
+
+
+
+#navbarScrollingDropdown-1 {
+    position: relative;
+    top: 15px;
+    color: #A8A5A3;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Remove default arrow */
+    border-style: none;
+    outline: none;
+    background-image: url(../assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 10px;
+    background-size: 7px;
+    width: 56px;
+    margin-right: 15px;
+    padding: 5px 10px 0px 30px;
+}
+
+#navbarScrollingDropdown-2 {
+    position: relative;
+    top: 5px;
+    display: flex;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Remove default arrow */
+    border-style: none;
+    outline: none;
+    background-image: url(../assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    background-size: 7px;
+    min-width: 72px;
+    margin-top: -7px;
+    padding: 0px 15px 5px 0px;
+}
+
+#language-label {
+    color: #A8A5A3;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+#searchbar-1 {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+    color: #333;
+    min-width: 300px;
+    max-width: 300px;
+    background-image: url(../assets/searchicon.png);
+    background-position: 16px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    outline: none;
+    padding: 4px 0 4px 48px;
+    border: 1px solid #dedede;
+    transition: width .6s ease-in-out;
+    height: 40px;
+    background-color: white;
+    border-radius: 32px;
+}
+
+.nav-item dropdown {
+    text-decoration: none;
+    display: none;
+    position: relative;
+    background-color: #fafafa;
+    min-width: 20px;
+    box-shadow: 0 1px 4px #a8a5a3;
+    z-index: 1;
+
+}
+
+.navbarDropdownMenuLink {
+    display: flex;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Remove default arrow */
+    border-style: none;
+    outline: none;
+    padding: 10px 3px 5px 40px;
+
+}
+
+#navbarNavDropdown,
+.collapse navbar-collapse {
+    width: 100%;
+    background-color: white;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+#wine {
+    background-image: url(../assets/Wine-Glass-icon.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-position: left 7px center;
+}
+
+#pairings {
+    background-image: url(../assets/Cheese.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-position: left 10px center;
+}
+
+#grapes {
+    background-image: url(../assets/Grapes.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: left 5px center;
+}
+
+#regions {
+    background-image: url(../assets/Region.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left 10PX center;
+}
+
+#Awards {
+    background-image: url(../assets/award.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: left 7PX center;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+}
+
+
+
+
+#text-upper-heading {
+    font-size: 22px;
+    margin-left: 17px;
+    min-width: 400px;
+
+
+}
+
+.text-upper-heading {
+    margin-bottom: 0;
+    padding-top: 64px;
+    margin-bottom: 0;
+    padding-top: 64px;
+    font-size: 10px;
+    line-height: normal;
+    color: #1d1d1d;
+    text-align: left;
+    max-width: 1216px;
+
+}
+
+#text-center {
+    max-width: 1216px;
+    margin-bottom: 10px;
+}
+
+.user-rating {
+    padding-top: 100px;
+
+}
+
+
+
+#user-rating {
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Remove default arrow */
+    border-style: solid;
+    padding: 0 8px;
+    width: 200px;
+    height: 46px;
+    font-size: 16px;
+    border-radius: 30px;
+    outline: none;
+    background-image: url(../assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 8px;
+    border: 1px solid #eae0da;
+    border-radius: 120px;
+    background-color: #fff;
+    color: #484848;
+    margin-bottom: 10px;
+}
+
+.content-left {
+    max-height: 50px;
+    top: -400px;
+}
+
+#h2-font-size {
+    font-size: 22px;
+    min-height: 50px;
+    margin-bottom: 16px;
+}
+
+#content-left {
+    max-width: 400px;
+    margin-left: 65px;
+}
+
+
+#selectmultiplelabel {
+    position: relative;
+    top: -68px;
+    font-size: 13px;
+    left: 300px;
+}
+
+.btn-first-column-alignmnet {
+    margin-top: -20px;
+}
+
+.btnfirstcolumn {
+    background-color: #fafafa;
+    color: #ba1628;
+    border: solid 1px;
+    padding: 8px;
+    min-width: 120px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 8px 5px;
+}
+
+
+.btnfirstcolumn:focus {
+    background-color: #ba1628;
+    border: none;
+    color: #fafafa;
+    padding: 8px;
+    min-width: 120px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 8px 5px;
+    cursor: pointer;
+}
+
+.slider-alignment {
+    margin-top: 25px;
+}
+
+.slider-container {
+    padding-top: 64px;
+}
+
+
+#slider-label-left {
+    font-size: 13px;
+}
+
+#slider-label-right {
+    position: relative;
+    float: right;
+    font-size: 13px;
+    top: -490px;
+
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+    background: #c0392b;
+    outline: none;
+
+}
+
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c0392b;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #c0392b;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: #c0392b;
+    cursor: pointer;
+}
+
+.user-ratings-container {
+    padding-top: 64px;
+}
+
+.stars-ratings {
+    width: 150px;
+    position: relative;
+    top: 250px;
+    left: 300px;
+}
+
+
+.container-radio {
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 100px;
+    text-align: left 70px;
+    display: block;
+    position: relative;
+    min-height: 3vh;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #eae0da;
+    border-radius: 100%;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked~.checkmark {
+    background-color: white;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-radio input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: 1px white;
+    border-radius: 100%;
+    background: #c0392b;
+}
+
+label {
+
+    font-size: 13px;
+}
+
+
+.searchbar2 {
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 400;
+    outline: 0;
+    border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-bottom: 1px solid #e4e4e4;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 2px 0 2px 24px;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-color: #fafafa;
+}
+
+.btn-second-column {
+    background-color: #fafafa;
+    color: #ba1628;
+    border: solid 1px;
+    border-color: #ba1628;
+    padding: 8px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 3px;
+
+    cursor: pointer;
+}
+
+.btn-second-column:focus {
+    background-color: #ba1628;
+    border: none;
+    color: #fafafa;
+    padding: 7px 20px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 12px 3px;
+    cursor: pointer;
+}
+
+h6 {
+    color: #c0392b;
+    text-decoration: none;
+}
+
+.grapes-container {
+    margin-top: 64px;
+    margin-bottom: 0px;
+}
+
+.regions-container {
+    margin-top: 64px;
+}
+
+.countries-container {
+    margin-top: 64px;
+}
+
+.countries-container {
+    margin-top: 64px;
+}
+
+.wine-style-container {
+    padding-top: 64px;
+}
+
+.food-pairings-container {
+    padding-top: 64px;
+}
+
+#argentina {
+    background-image: url(../assets/argentina.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+}
+
+#australia {
+    background-image: url(../assets/australia.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+
+}
+
+#austria {
+    background-image: url(../assets/austria.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+
+
+}
+
+#chile {
+    background-image: url(../assets/chile.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+}
+
+#france {
+    background-image: url(../assets/france.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+}
+
+#germany {
+    background-image: url(../assets/germany.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+
+}
+
+#italy {
+    background-image: url(../assets/italy.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+}
+
+#spain {
+    background-image: url(../assets/spain.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+
+}
+
+#portugal {
+    background-image: url(../assets/portugal.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+}
+
+#unitedstates {
+    background-image: url(../assets/unitedstates.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 10px;
+    padding-left: 20px;
+}
+
+#poultry {
+    background-image: url(../assets/poultry.png);
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-size: 12px;
+    padding-left: 20px;
+}
+
+#fish {
+    background-image: url(../assets/fish.png);
+    background-repeat: no-repeat;
+    background-position: left 2px center;
+    background-size: 15px;
+    padding-left: 20px;
+
+}
+
+#chily {
+    background-image: url(../assets/chily.png);
+    background-repeat: no-repeat;
+    background-position: left 2px center;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
+#sweetdessert {
+    background-image: url(../assets/muffin.png);
+    background-repeat: no-repeat;
+    background-position: left 2px center;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
+#veal {
+    background-image: url(../assets/veal.png);
+    background-repeat: no-repeat;
+    background-position: left 2px center;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
+.container-right {
+
+    float: right;
+    max-width: 800px;
+    padding-left: 0px;
+    background-color: #fafafa;
+
+}
+
+.containerwine1 {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 800px;
+    min-height: 256px;
+    border-style: solid 2px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .06);
+    padding-left: 20%;
+    margin-bottom: 16px;
+    text-align: left;
+    padding-right: 8px;
+    overflow: hidden;
+    max-width: 800px;
+    float: right;
+    margin-right: 25px;
+}
+
+.portugal-wine-img {
+    background-image: url(../assets/portugal.webp);
+    background-repeat: no-repeat;
+    background-position: left px;
+    top: 30px;
+    background-size: 25px;
+
+}
+
+#text-align-wine-info {
+    margin-left: 30px;
+}
+
+#sold-out {
+    position: relative;
+    left: 180px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #b03000;
+    top: 50px;
+}
+
+.bottleinformatin1 {
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    width: 40%;
+    max-height: 256px;
+    z-index: 1;
+}
+
+#container-img-bg-1 {
+    position: absolute;
+    background-color: #ddd7d1;
+    min-width: 155px;
+    max-width: 50px;
+    min-height: 235px;
+    border-radius: 4px;
+    left: 0px;
+    margin-top: 10px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.bottleComment1 {
+    position: absolute;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .06);
+    background: #fafafa;
+    border-radius: 4px;
+    text-align: left;
+    left: 500px;
+    margin-top: 12px;
+    padding: 8px;
+    top: 10px;
+    max-width: 277px;
+    min-width: 277px;
+    width: 32%;
+    max-height: 104px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+#wineimg-1 {
+    position: absolute;
+    top: 20px;
+    padding-right: 50;
+    background-position: top;
+    left: 50px;
+    width: 60px;
+    z-index: 10;
+
+
+}
+
+h3 {
+    font-size: 40px !important;
+    margin-bottom: 0px !important;
+
+}
+
+
+.containerwine2 {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 800px;
+    min-height: 256px;
+    border-style: solid 2px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .06);
+    padding-left: 20%;
+    margin-bottom: 16px;
+    text-align: left;
+    padding-right: 8px;
+    overflow: hidden;
+    max-width: 800px;
+    float: right;
+    margin-right: 25px;
+}
+
+.usa-wine-img {
+    background-image: url(../assets/unitedstates.png);
+    background-repeat: no-repeat;
+    background-position: left px;
+    top: 30px;
+    background-size: 25px;
+
+}
+
+#container-img-bg-2 {
+    position: absolute;
+    background-color: #ceb7b7;
+    min-width: 155px;
+    max-width: 50px;
+    min-height: 235px;
+    border-radius: 4px;
+    left: 0px;
+    margin-top: 10px;
+    margin: 10px;
+    z-index: 2;
+}
+
+
+#wineimg-2 {
+    position: absolute;
+    top: 15px;
+    padding-right: 50;
+    background-position: top;
+    left: 50px;
+    width: 60px;
+    z-index: 10;
+
+}
+
+.bottleinformatin2 {
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    width: 40%;
+    min-height: 30vh;
+    z-index: 1;
+}
+
+.bottleComment2 {
+    position: absolute;
+    text-align: center;
+    left: 500px;
+    top: 10px;
+    width: 32%;
+    font-size: 20px;
+    min-height: 6vh;
+    z-index: 1;
+}
+
+.containerwine3 {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 800px;
+    min-height: 256px;
+    border-style: solid 2px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .06);
+    padding-left: 20%;
+    margin-bottom: 16px;
+    text-align: left;
+    padding-right: 8px;
+    overflow: hidden;
+    max-width: 800px;
+    float: right;
+    margin-right: 25px;
+
+}
+
+
+
+
+#wineimg-3 {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    width: 60px;
+    z-index: 10;
+
+}
+
+.bottleinformatin3 {
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    width: 60%;
+    min-height: 30vh;
+    z-index: 1;
+}
+
+#container-img-bg-3 {
+    position: absolute;
+    background-color: #c8d1ce;
+    min-width: 155px;
+    max-width: 50px;
+    min-height: 235px;
+    border-radius: 4px;
+    left: 0px;
+    margin-top: 10px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.bottleComment3 {
+    position: absolute;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .06);
+    background: #fafafa;
+    border-radius: 4px;
+    text-align: left;
+    left: 500px;
+    margin-top: 12px;
+    padding: 8px;
+    top: 10px;
+    max-width: 277px;
+    min-width: 277px;
+    width: 32%;
+    border-radius: 4px;
+    max-height: 104px;
+    z-index: 1;
+}
+
+.alignt-text-coment {
+    position: relative;
+    margin-left: 50px;
+    top: -30px;
+}
+
+.containerwine4 {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 800px;
+    min-height: 256px;
+    border-style: solid 2px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .06);
+    padding-left: 20%;
+    margin-bottom: 16px;
+    text-align: left;
+    padding-right: 8px;
+    overflow: hidden;
+    max-width: 800px;
+    float: right;
+    margin-right: 25px;
+
+}
+
+
+
+#wineimg-4 {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    width: 60px;
+    z-index: 10;
+
+}
+
+#container-img-bg-4 {
+    position: absolute;
+    background-color: #e7dcdb;
+    min-width: 155px;
+    max-width: 50px;
+    min-height: 235px;
+    border-radius: 4px;
+    left: 0px;
+    margin-top: 10px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.bottleinformatin4 {
+    position: absolute;
+
+    left: 150px;
+    top: 10px;
+    width: 40%;
+    min-height: 30vh;
+    z-index: 1;
+}
+
+
+.bottleComment4 {
+    position: absolute;
+    background-color: #f5f5f5;
+    text-align: center;
+    left: 500px;
+    top: 10px;
+    width: 32%;
+    min-height: 6vh;
+    z-index: 1;
+}
+
+.vivno-details {
+    background-color: #F7F3F0;
+    text-align: center;
+    width: 100%;
+
+    min-height: 200px;
+    max-height: 20vh;
+}
+
+
+#bottom-vivino-details-text {
+
+    position: relative;
+    text-align: center;
+    left: -100px;
+
+    margin: 24px !important;
+}
+
+.vivino-details {
+    width: 100%;
+    background-color: #f7f3f0;
+    padding: 32px;
+    min-width: 238px;
+    min-height: 238px;
+}
+
+#vivinodetails {
+    padding-left: 70px;
+    margin-bottom: 24px;
+}
+
+.footer {
+    background-color: #EAE0DA;
+    min-height: 202px;
+    padding: 24px;
+
+}
+
+.container-left {
+    width: 400px;
+    min-width: 400px;
+    max-height: 60px;
+}
+
+#appstore {
+    position: relative;
+    left: 50px;
+    top: -25px;
+    width: 150px;
+}
+
+#playstore {
+    position: relative;
+    left: 40px;
+    top: -25px;
+    width: 150px;
+}
+
+.container-right {
+    background-color: #EAE0DA;
+}
+
+#payment {
+    position: relative;
+    right: 0px;
+    top: -60px;
+    float: right;
+    width: 500px;
+}
+
+.container-bottom-left {
+    position: relative;
+    top: -20px;
+    padding-left: 100px;
+    max-height: 50px;
+    float: left;
+}
+
+#logo-img-footer {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#align-bottom-footer-items {
+    margin-right: 24px;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+#social-media-footer {
+    position: relative;
+    top: 40px;
+    left: 500px;
+    float: right;
+}
+
+footer {
+    background-color: #eae0da;
+}

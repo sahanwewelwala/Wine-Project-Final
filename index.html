@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Hind:wght@700&family=Source+Sans+Pro:wght@600;700;900&family=Work+Sans:wght@700&display=swap" rel="stylesheet">  
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red wine Responsive</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container-fluid nav-1">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="assets/vivino-logo.png" alt="Logo"  id="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <form class="d-flex">
+                            <input  id="searchbar-1" type="search" placeholder="Search any Wine" aria-label="Search">
+                          </form>
+                      </li>
+                    </div>
+                    <ul class="navbar-nav ">
+                      <div class="d-flex flex-row-reverse bd-highlight"></div>
+                      <li class="nav-item dropdown">
+                        <a  href="#" id="navbarScrollingDropdown-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ship to
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <label for="navbarScrollingDropdown-2" id="language-label">Language</label>
+                        <a  href="#" id="navbarScrollingDropdown-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          English
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><Img src="assets/signin.png" width="45px"></Img></a>
+                      </li>
+            
+                    </ul>
+            
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="container nav-2" id="nav-2">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-2">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <li class="nav-item dropdown">
+                        <a  href="#" class="navbarDropdownMenuLink"id="wine" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Wines
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a  href="#" class="navbarDropdownMenuLink" id="pairings" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pairings
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a  href="#" class="navbarDropdownMenuLink" id="grapes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Grapes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a  href="#" class="navbarDropdownMenuLink" id="regions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Regions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a  href="#" class="navbarDropdownMenuLink" id="Awards" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Awards
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        
+    </header>
+    
+    <main id="main" >
+      <div class="container text-center" id="text-center">
+        <div class="row">
+          <div class="col-md-10 col-sm-12" >
+            <div class="text-upper-heading" >
+              <h2 id="text-upper-heading">
+                Showing 14086 Red wines between $0-$500 rated above 4.5 stars
+              </h2>
+            </div>
+          </div>
+         
+          <div class="col-md-2 col-sm-4">
+            <div class="user-rating">
+              <select id="user-rating">
+                <option img src="assets/arrow.png" width="20px"> Sort:</option>
+                <option value="1">Highest User Rating</option>
+                <option value="2">Discount</option>
+                <option value="3">Price: Low To High
+                <option value="4">Price Hight To Low</option>
+                <option value="2">Popular</option>
+            </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-right">
+        <div class="">
+
+            
+          </div>
+          <div class="col-md-12 col-sm-4 container-right"></div>
+          <div class="containerwine1">
+
+
+            
+                <div id="container-img-bg-1">
+                    <img src="assets/L33jsYUuTMWTMy3KoqQyXg_pb_x300.png" id="wineimg-1"/>
+                  </div>
+               <div class="bottleinformatin1">
+                <a href="">Cartuxa <br>
+                    <b>Pêra-Manca Tinto 1990</b>
+                </a>
+                <br>
+                <div class="portugal-wine-img">
+                <p id="text-align-wine-info"> Red wine from Alentejo ·  <br>
+                          Portugal</p>
+              
+                        </div>
+        
+                
+                
+                <label id="sold-out">Sold out</label>
+                <h3>4.9</h3>
+                <img src="assets/Stars.png" width="80px"/>
+                <br>
+                <p>85 ratings</p>
+                </div>
+                <div class="bottleComment1">
+                 <img src="assets/1star.png" width="40"  >
+                    <div class="alignt-text-coment">
+                    This vintage rates better
+                    <br>
+                    than any other year for
+                    <br>
+                    this wine
+                  </div>
+                </div>
+                </div>
+            
+        
+            <br>
+          
+            <div class="containerwine2">
+
+              
+                
+                <div id="container-img-bg-2">
+                          <img src="assets/DtBMhsMBTtiA4URvVaUBNA_pb_x300.png" id="wineimg-2">
+                </div> 
+                <div class="bottleinformatin2">
+                        <a href="">Sine Qua Non <br>
+                      <b>Rattrapante Grenache 2012</b>
+                  </a>
+                  <br>
+                  <div class="usa-wine-img">
+                  <p id="text-align-wine-info">Red wine from Sta. Rita Hills ·
+                  <br>
+                  United States
+                  </p>
+                </div>
+                  <label id="sold-out">Sold out</label>
+                  
+                  <h3>4.9</h3>
+                
+                  <img src="assets/Stars.png" width="80px"/>
+                  <br>
+                  <p>69 ratings</p>
+              </div>
+              <div class="bottleComment2">
+                  <img src="assets/5-stars.png" width="250"/>
+          
+                  <br>
+          
+                  <br>
+              </div>
+              <br>
+          </div>
+          <div class="containerwine3">
+
+    
+          <div id="container-img-bg-3">
+            <img src="assets/PBhGMcRNQ7aVnVNr7VgnWA_pb_x300.png" id="wineimg-3"/>
+            </div>
+            <div class="bottleinformatin3">
+              <a href="">Hundred Acre <br>
+            <b>Wraith Cabernet Sauvignon 2014</b>
+        </a>
+        <br>
+        <div class="usa-wine-img">
+        <p id="text-align-wine-info">Red wine from Napa Valley ·
+        <br>
+        United States
+        </p>
+        </div>
+        
+        <label id="sold-out">Sold out</label>
+        <h3>4.9</h3>
+        <img src="assets/Stars.png" width="80px"/>
+        <br>
+        <p>66 ratings</p>
+    </div>
+    <div class="bottleComment3">
+        <img src="assets/1star.png" width="40"  >
+        <div class="alignt-text-coment">
+        This vintage rates better
+        <br>
+        than any other year for
+        <br>
+        this wine
+      </div>
+    </div>
+    <br>
+</div>
+<div class="containerwine4">
+ 
+        <div id="container-img-bg-4">
+          <img src="assets/0667TG7qS2KsRLsShMTjAw_pb_x300.png" id="wineimg-4"/>
+          </div>
+          <div class="bottleinformatin3">
+            <a href="">Amici <br>
+          <b>Echion Cabernet Sauvignon 2014</b>
+      </a>
+      <br>
+      <div class="usa-wine-img">
+      <p id="text-align-wine-info"> wine from Oakville ·
+      <br>
+      United States
+      </div>
+      
+      
+      <label id="sold-out">Sold out</label>
+      <h3>4.9</h3>
+      <img src="assets/Stars.png" width="80px"/>
+      <br>
+      <p>68 ratings</p>
+  </div>
+  
+</div>
+              
+
+          </div>
+          <div class="col-md-5 col-sm-12">
+      
+        </div>
+      </div>
+      <div class="container text-left">
+        <div class="row">
+         
+            
+          </div>
+          <div class="col-md-9 col-sm-12 flex-row-reverse">
+
+              
+
+          </div>
+          <div class="col-md-5 col-sm-12" id="content-left">
+           <div class="content-left">
+              <h2 id="h2-font-size">Wine Types</h2>
+          
+                  <p id="selectmultiplelabel" style="align-items: flex-end">Select multiple</p>
+              </div>
+              <br>
+              <div class="btn-first-column-alignmnet">
+              <button class="btnfirstcolumn">Red</button>
+              <button class="btnfirstcolumn">White</button>
+              <button class="btnfirstcolumn">Rose</button>
+              <br>
+              <button class="btnfirstcolumn">Dessert</button>
+              <button class="btnfirstcolumn">Fortified</button>
+              <button class="btnfirstcolumn">Sparkling</button>
+            </div>
+              <div class="price-range">
+                <div class="slider-container">
+              <h2 id="h2-font-size">Price Range</h2>
+                      <div class="slider-alignment">
+                      <p id="slider-label-right" style="align-items: flex-end">$500+</p>
+                    </div>
+                  </div>
+                  <label for="myRange" id="slider-label-left">$0</label>
+                  <br>
+                  <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+              </div>
+            
+              <div class="user-ratings-container">
+              <div class="user-rating-radio-btn">
+                <h2 id="h2-font-size">Vivino User Rating</h2>
+                <br>
+                <label class="container-radio" ><label  for="4.5stars"><img src="./assets/4.5.png" width="120px"> Rare & extraordinary</label>
+                    <input id="4.5stars" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-radio"><label for="3stars"><img src="./assets/4.0.png" width="120xpx"> Very good stuff</label>
+                    <input id="4stars" type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-radio"><label for="3.5stars"><img src="assets/3.5.PNG"width="120px"> Good Stuff</label>
+                    <input id="3.5stars" type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-radio"><label for="3.0stars"><img src="assets/3.0.PNG" width="120px"> Average</label>
+                    <input id="3.0stars" type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-radio"><label for="anyrating">Any Rating</label>
+                    <input id="anyrating" type="radio" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+              </user-rating-radio-btn>
+          
+            
+              <div class="grapes-container">
+              <h2 id="h2-font-size">Grapes</h2>
+              
+              <input type="text" placeholder="Search Grapes" class="searchbar2">
+              <button class="btn-second-column">Cabernet Franc</button>
+              <button class="btn-second-column">Cabernet Sauvignon</button>
+              <button class="btn-second-column">Chardonary</button>
+              <br>
+              <button class="btn-second-column">Grenache</button>
+              <button class="btn-second-column">Malbec</button>
+              <button class="btn-second-column">Merlot</button>
+              <button class="btn-second-column">Pinot Noir</button>
+              <br>
+              <button class="btn-second-column">Riesling</button>
+              <button class="btn-second-column">Sauvignon Blanc</button>
+              <button class="btn-second-column">Shiraz/Syrah</button>
+              </div>
+              <div class="regions-container">
+               <h2 id="h2-font-size">Regions</h2>
+              <input type="text" placeholder="Search Regions" class="searchbar2">
+              <button class="btn-second-column">Bordeaux</button>
+              <button class="btn-second-column">Bourgogne</button>
+              <button class="btn-second-column">Napa Valley</button>
+              <button class="btn-second-column">Piemonte</button>
+              <br>
+              <button class="btn-second-column">Rhone Valley</button>
+              <button class="btn-second-column">Toscana</button>
+              </div>
+              <div class="countries-container">
+              <h2 id="h2-font-size">Countries</h2>
+              <input type="text" placeholder="Search Countries" class="searchbar2">
+              <button class="btn-second-column" id="argentina">Argentina</button>
+              <button class="btn-second-column" id="australia">Australia</button>
+              <button class="btn-second-column" id="austria">Austria</button>
+              <button class="btn-second-column" id="chile">Chile</button>
+              <br>
+              <button class="btn-second-column" id="france">France</button>
+              <button class="btn-second-column" id="germany">Germany</button>
+              <button class="btn-second-column" id="italy">Italy</button>
+              <button class="btn-second-column" id="portugal">Portugal</button>
+              <br>
+              <button class="btn-second-column" id="spain">Spain</button>
+            <button class="btn-second-column" id="unitedstates">United States</button>
+      
+            <div class="wine-style-container">
+            <h2 id="h2-font-size">Wine Styles</h2>
+            <input type="text" placeholder="Search Wine Styles" class="searchbar2">
+            <button class="btn-second-column">Argentinian Malbec</button>
+            <button class="btn-second-column">Californian Cabernet Sauvignon</button>
+            <br>
+            <button class="btn-second-column">Central Italy Red</button>
+            <button class="btn-second-column">Spanish Red</button>
+            <button class="btn-second-column">Spanish Rioja Red</button>
+    
+            </div>
+            <div class="food-pairings-container">
+            <h2 id="h2-font-size">Food pairings</h2>
+            <input type="text" placeholder="Search Food pairings" class="searchbar2">
+            <button class="btn-second-column" id="poultry">Poultry</button>
+           <button class="btn-second-column" id="fish">Rich fish(salmon,tuna etc)</button>
+           <br>
+            <button class="btn-second-column" id="chily">Spicy food</button>
+            <button class="btn-second-column" id="sweetdessert">Sweet desserts</button>
+            <button class="btn-second-column" id="veal">Veal</button>
+            <br>
+            <a href="#"><h6>Show All</h6></a>
+        </div>    
+    </div>
+    
+    
+       
+         
+    
+      
+     
+
+    </main>
+
+    <footer>
+      
+       
+      <div class="vivino-details">
+        <h2 id="bottom-vivino-details-text">Trusted by millions to discover and buy the right wine every time.<h2>
+            <div class="container">
+                <img src="assets/vivinodetailspng.PNG" alt="vivino-details"  id="vivinodetails">
+            </div>
+
+           </div>
+      </div>
+
+      <div class="container">
+       
+     <div class="container footer">
+            <div class="container-left">
+            <img src="assets/applestore.png" id="appstore" >
+            <img src="assets/playstore.png" id="playstore">
+            
+          </div>
+          <div class="container-right">
+            <img src="assets/payment-gateway-png-transparent-png.PNG" id="payment">
+            <img src="assets/Social-media-footer.PNG" alt="scoial media" id="social-media-footer">
+          </div>
+          <img src="assets/logo-footer.PNG" alt="" width="40px" id="logo-img-footer">
+          <div class="container-bottom-left">
+           
+            <a href="" id="align-bottom-footer-items">App</a>
+            <a href="" id="align-bottom-footer-items">About</a>
+            <a href="" id="align-bottom-footer-items">Contact</a>
+            <a href="" id="align-bottom-footer-items">Press</a>
+            <a href="" id="align-bottom-footer-items">Wine News</a>
+            <a href="" id="align-bottom-footer-items">Wine Style Award</a>
+            <a href="" id="align-bottom-footer-items">Merchants</a>
+            <a href="" id="align-bottom-footer-items">Sponsorships</a>
+            <a href="" id="align-bottom-footer-items">Become an Affiliate</a>
+            <a href="" id="align-bottom-footer-items">Jobs</a>
+            <a href="" id="align-bottom-footer-items">Terms of Use</a>
+            <a href="" id="align-bottom-footer-items">Privacy Policy</a>
+            <br>
+            <a href="" id="align-bottom-footer-items">Content Policy</a>
+            <a href="" id="align-bottom-footer-items">Sitemap</a>
+            
+          </div>
+         
+
+               
+            
+     </div> 
+
+    </footer>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+</body>
+</html>
